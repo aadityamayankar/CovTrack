@@ -71,7 +71,7 @@ const NavBar = () => {
           </List>
           <Divider/>
           <List>
-            <ListItem button component="a" href="#" target="_blank">
+            <ListItem button component="a" href="https://github.com/aadityamayankar/CovTrack" target="_blank">
               <ListItemIcon><GitHubIcon/></ListItemIcon>
               <ListItemText primary="GitHub" classes={{primary:classes.navText}}/>
             </ListItem>

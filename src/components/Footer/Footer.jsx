@@ -9,7 +9,7 @@ const Footer = () => {
         <>
             <Box className={styles.container}>
                 <hr style={{backgroundColor:'rgb(255, 255, 255)'}}/>
-                <IconButton>
+                <IconButton href="https://github.com/aadityamayankar/CovTrack" target="_blank">
                     <GitHubIcon/>
                 </IconButton>
                 <IconButton href="https://www.linkedin.com/in/aaditya-mayankar-745740128/" target="_blank">
