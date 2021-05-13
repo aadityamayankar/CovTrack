@@ -2,7 +2,6 @@
 *bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
 
 ## **Demo**
----
 #### **Landing Page**
 ![1](./src/img/1.jpeg)
 #### **Menu**
@@ -14,7 +13,9 @@
 #### **Country Bar Chart data set**
 ![5](./src/img/5.jpeg)
 
+## How does it work?
 
+This project uses the mathdroid [COVID-19 API](https://github.com/mathdroid/covid-19-api) to fetch the data in real time. When the user selects any country, *handleCountryChange* event handeler is triggered and the particular data is fetched. Then, using [Chart js](https://www.chartjs.org/) the required data is mapped to a graph. All styling is done with the help of [Material UI](https://material-ui.com/) library and, Icons used are from [fontawesome](https://fontawesome.com/) and [react-icons](https://react-icons.github.io/react-icons/) libraries.
 
 ## Available Scripts
 
@@ -52,3 +53,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Bibliography
+
+*Thanks to [Aman Sharma](https://github.com/Aman22sharma) who inspired us to make this project*
