@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins&display=swap');
+.container {
+    margin: 1.5% 0!important;
+}
+
+.card {
+    margin: 2% 4% !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+} 
+
+.infected {
+    border-bottom: 10px solid rgb(0, 0, 200);
+}
+
+.recovered {
+    border-bottom: 10px solid rgb(0, 200, 0);
+}
+
+.deaths {
+    border-bottom: 10px solid rgb(200, 0, 0);
+}
+
+.cardTitle1 {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: rgb(0, 0, 200) !important;
+    font-family: 'Lora', serif !important;
+}
+
+.cardTitle2 {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: rgb(0, 200, 0) !important;
+    font-family: 'Lora', serif !important;
+}
+
+.cardTitle3 {
+    font-size: 20px !important;
+    font-weight: bold !important;
+    color: rgb(200, 0, 0) !important;
+    font-family: 'Lora', serif !important;
+}
+
+.countryText {
+    color: rgb(255, 255, 255) !important;
+    margin: 6% 0 0 0 !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.cardFooter {
+    color: rgb(255, 255, 255) !important;
+    margin-top: 10px !important;
+    font-family: 'Poppins' !important;
+}
+
+.lastUpdate{
+    color: rgb(187, 187, 187) !important;
+}
+
+.appTitle {
+    margin-bottom: 15px !important;
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Lora', serif !important;
+}
+
+.countUp{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Poppins' !important;
+}
+
+.appSubTitle{
+    color: rgb(187, 187, 187) !important;
+    font-family: 'Poppins' !important;
+
+}
+
+.appCreator {
+    background-color: rgb(185, 72, 120) !important;
+    margin-bottom: 30px !important;
+    color: white !important;
+    font-family: 'Bangers', cursive !important;
+}
+
+@media only screen and (max-width: 770px) {
+    .card {
+        margin: 2% 0 !important;
+    }
+    .countryText {
+        font-size: 30px !important;
+        font-family: 'Roboto', sans-serif !important;
+    }
+    .appTitle {
+        font-size: 15px !important;
+        font-family: 'Roboto', sans-serif !important;
+        margin-bottom: 5px !important;
+    }
+    .appCreator {
+        background-color: rgb(185, 72, 120) !important;
+        margin-bottom: 15px !important;
+        color: white !important;
+        font-family: 'Varela Round', sans-serif !important;
+        font-size: 15px !important;
+    }
+}

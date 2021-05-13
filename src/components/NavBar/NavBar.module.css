@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins&display=swap');
+
+.root{
+    flex-grow: 1;
+}
+
+.menuButton{
+    margin-right: 2;
+}
+
+.title{
+    flex-grow: 1;
+}
+
+.virusIcon{
+    min-width: 50px;
+}
+
+.navText{
+    font-family: 'Poppins' !important; 
+    font-size: '100px';
+}

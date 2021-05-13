@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins&display=swap');
+
+
+.container{
+    margin-top: 4em;
+    margin-bottom: 2em;
+    text-align: center;
+    width: 85%;
+}
+
+.footText{
+    color: rgb(255, 255, 255) !important;
+
+    font-family: 'Poppins' !important;
+}
