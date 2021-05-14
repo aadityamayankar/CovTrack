@@ -15,7 +15,7 @@
 
 ## How does it work?
 
-This project uses the mathdroid [COVID-19 API](https://github.com/mathdroid/covid-19-api) to fetch the data in real time. When the user selects any country, *handleCountryChange* event handeler is triggered and the particular data is fetched. Then, using [Chart js](https://www.chartjs.org/) the required data is mapped to a graph. All styling is done with the help of [Material UI](https://material-ui.com/) library and, Icons used are from [fontawesome](https://fontawesome.com/) and [react-icons](https://react-icons.github.io/react-icons/) libraries.
+This project uses the mathdroid [COVID-19 API](https://github.com/mathdroid/covid-19-api) to fetch the data in real time. When the user selects any country, *handleCountryChange* event handler is triggered and the particular data is fetched. Then, using [Chart js](https://www.chartjs.org/) the required data is mapped to a graph. All styling is done with the help of [Material UI](https://material-ui.com/) library and, Icons used are from [fontawesome](https://fontawesome.com/) and [react-icons](https://react-icons.github.io/react-icons/) libraries.
 
 ## How to install?
 
