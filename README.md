@@ -20,7 +20,7 @@ This project uses the mathdroid [COVID-19 API](https://github.com/mathdroid/covi
 ## How to install?
 
 1. Download the source code as zip or clone the git repository on your local drive.
-2. `cd covid_19_tracker_app` to change to project's directory
+2. `cd CovTrack-main` to change to project's directory
 3. `npm i` OR `yarn add` to install all the package dependency
 4. `npm start` to run the app in development mode OR any of the scripts available given below.
 
