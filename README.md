@@ -17,6 +17,13 @@
 
 This project uses the mathdroid [COVID-19 API](https://github.com/mathdroid/covid-19-api) to fetch the data in real time. When the user selects any country, *handleCountryChange* event handeler is triggered and the particular data is fetched. Then, using [Chart js](https://www.chartjs.org/) the required data is mapped to a graph. All styling is done with the help of [Material UI](https://material-ui.com/) library and, Icons used are from [fontawesome](https://fontawesome.com/) and [react-icons](https://react-icons.github.io/react-icons/) libraries.
 
+## How to install?
+
+1. Download the source code as zip or clone the git repository on your local drive.
+2. `cd covid_19_tracker_app` to change to project's directory
+3. `npm i` OR `yarn add` to install all the package dependency
+4. `npm start` to run the app in development mode OR any of the scripts available given below.
+
 ## Available Scripts
 
 In the project directory, you can run:
